@@ -6,18 +6,17 @@ match y:
         sum = float(x) + float(z)
         print(f"{sum:.1f}")
     case "-":
-        subtract = float(x) - float(z) 
+        subtract = float(x) - float(z)
         print(f"{subtract:.1f}")
     case "/":
         if y!=0:
-            division = float(x) / float(z) 
+            division = float(x) / float(z)
             print(f"{division:.1f}")
         else:
             print("Math Error")
     case  "*":
         product = float(x) * float(z)
         print(f"{product:.1f}")
-    case _: 
-        print("INVALID OPERATOR (+,-,/,*)")                    
-
+    case _:
+        print("INVALID OPERATOR (+,-,/,*)")  
 
